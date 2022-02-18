@@ -4054,10 +4054,10 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-decoration: none;
   white-space: nowrap;
-  font-weight: 800;
+  font-weight: 1000;
   letter-spacing: 0.05rem;
 }
 .navbar-nav {
