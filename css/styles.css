@@ -11357,6 +11357,7 @@ p.lead {
     height: 100vh;
   }
   #sideNav .navbar-brand {
+    font-weight: 800;
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
