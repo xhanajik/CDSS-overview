@@ -494,6 +494,33 @@ progress {
   font-weight: 300;
 }
 
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
@@ -4054,9 +4081,11 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-decoration: none;
   white-space: nowrap;
+  font-weight: 1000;
+  letter-spacing: 0.05rem;
 }
 .navbar-nav {
   display: flex;
@@ -11357,6 +11386,7 @@ p.lead {
     height: 100vh;
   }
   #sideNav .navbar-brand {
+    font-weight: 800;
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
