@@ -4057,6 +4057,8 @@ textarea.form-control-lg {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
+  font-weight: 800;
+  letter-spacing: 0.05rem;
 }
 .navbar-nav {
   display: flex;
@@ -11334,7 +11336,7 @@ p.lead {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-#sideNav .navbar-nav .nav-item .nav-link .navbar-brand {
+#sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
