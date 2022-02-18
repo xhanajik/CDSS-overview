@@ -11334,7 +11334,7 @@ p.lead {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-#sideNav .navbar-nav .nav-item .nav-link {
+#sideNav .navbar-nav .nav-item .nav-link .navbar-brand {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
